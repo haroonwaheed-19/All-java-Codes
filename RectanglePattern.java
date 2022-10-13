@@ -10,7 +10,9 @@ public class RectanglePattern {
         System.out.println("enter a number");
         int m = sc.nextInt(); // m for columns
 
+        // outer loop
         for (int i = 1; i <= n; i++) {
+            // inner loop
             for (int j = 1; j <= m; j++) {
                 System.out.print("*");
             }
